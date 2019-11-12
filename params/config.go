@@ -64,8 +64,8 @@ var (
 		EIP158Block:    big.NewInt(0),
 		Bsrr: &BSRRConfig{
 			Period:       5,
-			Epoch:        40,
-			Rewards:      common.StringToBig("20000"),
+			Epoch:        120,
+			Rewards:      common.StringToBig("10000"),
 			StakeMinimum: common.StringToBig("100000000000000000000000"),
 			SlashRound:   500,
 			ForkFactor:   1.0,
